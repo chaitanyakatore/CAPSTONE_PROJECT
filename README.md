@@ -55,13 +55,10 @@ Ensure you have the following installed on your local machine:
    ```bash
      cd ../frontend
 <img width="1438" alt="Screenshot 2024-11-17 at 11 46 44 PM" src="https://github.com/user-attachments/assets/c50faa8a-bb46-4ef2-ac14-a133a16a8455">
-<img width="1440" alt="Screenshot 2024-11-17 at 11 47 42 PM" src="https://github.com/user-attachments/assets/1c29cb2d-bafb-4190-bdce-8436440759bd">
-<img width="1440" alt="Screenshot 2024-11-17 at 11 53 47 PM" src="https://github.com/user-attachments/assets/feded0ef-d1fd-43a2-9b9d-4b81f63b4242">
-<img width="1440" alt="Screenshot 2024-11-17 at 11 53 59 PM" src="https://github.com/user-attachments/assets/ae01dee4-1ce1-4fa4-be9c-181e33f07da8">
-
-<img width="1440" alt="Screenshot 2024-11-17 at 11 47 55 PM" src="https://github.com/user-attachments/assets/4dca8961-9d9e-4826-8348-62396f93b3b1">
+<img width="1440" alt="Screenshot 2024-12-14 at 6 05 52 PM" src="https://github.com/user-attachments/assets/b9751af4-08ad-4779-81d3-2eac2ee2ffd4" />
+<img width="1439" alt="Screenshot 2024-12-14 at 6 10 02 PM" src="https://github.com/user-attachments/assets/88a199bd-15fd-44af-a87d-c1cba415cf56" />
+<img width="1440" alt="Screenshot 2024-12-14 at 6 08 42 PM" src="https://github.com/user-attachments/assets/fafdb98e-6f2b-4a91-932d-ce50d8b5df71" />
 <img width="1440" alt="Screenshot 2024-11-17 at 11 48 19 PM" src="https://github.com/user-attachments/assets/0df9c7c7-cb33-4878-8279-ac6571e214f9">
 <img width="1440" alt="Screenshot 2024-11-17 at 11 48 34 PM" src="https://github.com/user-attachments/assets/915a9c23-aefc-477c-a587-9e2cf8c7be29">
 <img width="1438" alt="Screenshot 2024-11-17 at 11 49 09 PM" src="https://github.com/user-attachments/assets/1efa3eed-f58d-42ba-aadd-23054de9f4c7">
-<img width="1432" alt="Screenshot 2024-11-17 at 11 49 24 PM" src="https://github.com/user-attachments/assets/c43ca070-24f5-48d1-8f5e-7a15e5a58ea9">
 
