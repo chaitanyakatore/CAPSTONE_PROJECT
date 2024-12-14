@@ -12,6 +12,7 @@ import DesignView from "./pages/DesignView";
 import ProfilePage from "./pages/ProfilePage";
 import DesignerList from "./pages/DesignerList";
 import ChatInterface from "./pages/ChatInterface";
+import DesignerAnalytics from "./pages/DesignerAnalytics";
 
 const App: React.FC = () => {
   return (
@@ -22,6 +23,7 @@ const App: React.FC = () => {
         <Route path="/all-designs" element={<AllDesigns />} />
         <Route path="/user-dashboard" element={<UserDashboard />} />
         <Route path="/designer-dashboard" element={<DesignerDashboard />} />
+        <Route path="/my-dashboard" element={<DesignerAnalytics />} />
         <Route path="/chat" element={<ChatInterface />} />
         <Route path="/designs/:designId" element={<DesignView />} />
         <Route path="/all-designers" element={<DesignerList />} />

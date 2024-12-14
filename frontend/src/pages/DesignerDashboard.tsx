@@ -1,12 +1,14 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import {
+  Home,
   Layout,
   LayoutGrid,
   Upload,
   Settings,
   LogOut,
   FileText,
+  MessageSquare,
 } from "lucide-react";
 import {
   Dialog,
@@ -193,14 +195,21 @@ const DesignerDashboard = () => {
       {/* Sidebar */}
       <div className="w-64 bg-white shadow-lg">
         <div className="p-6">
-          <h1 className="text-2xl font-bold text-indigo-600">Design Hub</h1>
+          <h1 className="text-2xl font-bold text-indigo-600">Design Metrics</h1>
         </div>
         <nav className="mt-6">
           <div className="px-4">
             <div className="flex flex-col space-y-2">
+              <button
+                onClick={() => navigate("/my-dashboard")} // Navigation path updated
+                className="flex items-center px-4 py-2 text-gray-700 bg-gray-100 rounded-lg"
+              >
+                <Home className="w-5 h-5 mr-3" /> {/* Home icon */}
+                Dashboard
+              </button>
               <button className="flex items-center px-4 py-2 text-gray-700 bg-gray-100 rounded-lg">
                 <Layout className="w-5 h-5 mr-3" />
-                Dashboard
+                My Design
               </button>
               <button
                 onClick={() => navigate("/all-designs")}
@@ -234,7 +243,7 @@ const DesignerDashboard = () => {
                 onClick={() => navigate("/chat")}
                 className="flex items-center px-4 py-2 text-gray-600 hover:bg-gray-100 rounded-lg"
               >
-                <FileText className="w-5 h-5 mr-3" />
+                <MessageSquare className="w-5 h-5 mr-3" />
                 Chat
               </button>
               <button

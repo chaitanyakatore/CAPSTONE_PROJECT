@@ -18,6 +18,7 @@ import {
   LogOut,
   Eye,
   Users,
+  MessageSquare,
 } from "lucide-react";
 
 interface UserData {
@@ -151,6 +152,13 @@ const UserDashboard: React.FC = () => {
                 All Designers
               </button>
               <button
+                onClick={() => navigate("/chat")}
+                className="flex items-center px-4 py-2 text-gray-600 hover:bg-gray-100 rounded-lg"
+              >
+                <MessageSquare className="w-5 h-5 mr-3" />
+                Chat
+              </button>
+              <button
                 onClick={() => navigate("/profile")}
                 className="flex items-center px-4 py-2 text-gray-600 hover:bg-gray-100 rounded-lg"
               >
@@ -223,7 +231,10 @@ const UserDashboard: React.FC = () => {
           >
             {filteredDesigns.length > 0 ? (
               filteredDesigns.map((design) => (
-                <Card key={design._id} className="hover:shadow-lg transition">
+                <Card
+                  key={design._id}
+                  className="hover:shadow-[0_0_10px_2px_rgba(255,105,180,0.8)] hover:border-pink-500 hover:bg-pink-50 border transition"
+                >
                   <CardHeader>
                     <CardTitle>{design.designTitle}</CardTitle>
                     <p className="text-gray-500">{design.description}</p>
